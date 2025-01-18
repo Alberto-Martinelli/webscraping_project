@@ -1,15 +1,12 @@
-# User Manual 
+# User Manual
 
 ## Overview
 This project extracts, processes, and analyzes hotel reviews in New York City. Using tools like Foursquare API, Playwright, and machine learning models, the project gathers insights into customer sentiments and clusters reviews into actionable categories. The following steps guide users on how to set up, run, and explore the project using Google Colab.
-
 
 ## Prerequisites
 - A Google account for accessing Google Colab.
 - Access to the project files and data, which can be found in the [GitHub Repository](https://github.com/Alberto-Martinelli/webscraping_project/tree/final).
 - Basic familiarity with Python and Jupyter notebooks.
-
-
 
 ## Getting Started
 
@@ -19,23 +16,24 @@ This project extracts, processes, and analyzes hotel reviews in New York City. U
 
 ### Step 2: Install Required Libraries
 Run the following command at the beginning of each notebook to install necessary libraries:
+
 ```python
 !pip install playwright pandas scikit-learn matplotlib seaborn vaderSentiment
 ```
+
 For Playwright, set it up with:
+
 ```python
 !playwright install
 ```
-
 
 ## Starting Repository
 
 When cloning the repository, users will have the following files:
 1. **`kayak_hotel_links.txt`**: A text file containing Kayak hotel URLs for the web scraping process.
 2. **`Webscraping_Notebook.ipynb`**: The Jupyter Notebook for scraping hotel data.
-3. **`api_playwright_aggregated_reviews.csv`**: The output csv file of the webscraping notebook.
+3. **`api_playwright_aggregated_reviews.csv`**: The output CSV file of the web scraping notebook.
 4. **`ML_Notebook.ipynb`**: The Jupyter Notebook for performing machine learning analysis on the scraped data.
-
 
 ## Web Scraping Notebook
 
@@ -56,8 +54,6 @@ The `Webscraping_Notebook.ipynb` collects hotel data using:
 
 ### Output
 A dataset containing hotel information, user reviews, and metadata.
-
-
 
 ## Machine Learning Notebook
 
@@ -81,7 +77,31 @@ The `ML_Notebook.ipynb` analyzes the scraped data using:
 - Insights into customer preferences for social and functional hotel features.
 - Recommendations for hotel managers and systems based on identified clusters.
 
----
+## Use Cases
+
+### Use Case 1: Improving Customer Experience
+- **Scenario:** A hotel manager wants to improve the rooftop ambiance based on customer feedback.
+- **Steps:**
+  1. Use the web scraping notebook to gather reviews mentioning the rooftop.
+  2. Analyze the sentiment and clustering results in the ML notebook to identify common themes in negative feedback.
+  3. Implement targeted improvements, such as better decor or additional services.
+- **Outcome:** Enhanced customer satisfaction and improved reviews.
+
+### Use Case 2: Personalized Recommendations
+- **Scenario:** A travel platform wants to recommend hotels based on functional and social features.
+- **Steps:**
+  1. Use clustering insights from the ML notebook to identify hotels with specific strengths (e.g., social features like a rooftop bar).
+  2. Match customer preferences with hotel features.
+  3. Provide personalized recommendations based on the analysis.
+- **Outcome:** More accurate and user-focused hotel suggestions.
+
+### Use Case 3: Market Analysis
+- **Scenario:** A market analyst wants to compare customer sentiments across different hotel categories.
+- **Steps:**
+  1. Aggregate review data from multiple hotels using the web scraping notebook.
+  2. Perform sentiment analysis and clustering to identify trends within categories (e.g., luxury vs. budget hotels).
+  3. Generate a report highlighting strengths and weaknesses across categories.
+- **Outcome:** Actionable insights for marketing strategies and competitive positioning.
 
 ## Recommendations
 
@@ -94,8 +114,8 @@ The `ML_Notebook.ipynb` analyzes the scraped data using:
 - Update scraping logic to include additional review platforms.
 - Expand ML analysis to integrate other NLP techniques like topic modeling.
 
-
 ## Troubleshooting
+
 - **Scraping Issues:**
   - Ensure the Playwright framework is properly installed.
   - Adjust scraping delays for JavaScript-rendered content.
@@ -105,5 +125,3 @@ The `ML_Notebook.ipynb` analyzes the scraped data using:
   - Restart the runtime if memory or resource limits are exceeded.
 
 For further assistance, refer to the [GitHub Repository](https://github.com/Alberto-Martinelli/webscraping_project/tree/final) or contact the project maintainers.
-
----
