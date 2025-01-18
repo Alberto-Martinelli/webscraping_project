@@ -6,7 +6,7 @@ This project extracts, processes, and analyzes hotel reviews in New York City. U
 
 ## Prerequisites
 - A Google account for accessing Google Colab.
-- Access to the project files and data, which can be found in the [GitHub Repository](https://github.com/Alberto-Martinelli/webscraping_project/tree/delivery).
+- Access to the project files and data, which can be found in the [GitHub Repository](https://github.com/Alberto-Martinelli/webscraping_project/tree/final).
 - Basic familiarity with Python and Jupyter notebooks.
 
 
