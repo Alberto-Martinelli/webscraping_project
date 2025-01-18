@@ -78,6 +78,7 @@ The `ML_Notebook.ipynb` analyzes the scraped data using:
 - Recommendations for hotel managers and systems based on identified clusters.
 
 ## Use Cases
+This section highlights practical applications of the project, showcasing how its functionalities can address real-world challenges. From enhancing customer experiences to supporting data-driven marketing strategies, these use cases illustrate the versatility and value of the prototype for hotel managers, travel platforms, and market analysts. Each example provides a scenario, step-by-step guidance, and expected outcomes to demonstrate the impact of the project in actionable terms.
 
 ### Use Case 1: Improving Customer Experience
 - **Scenario:** A hotel manager wants to improve the rooftop ambiance based on customer feedback.
