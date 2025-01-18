@@ -99,7 +99,7 @@ The `ML_Notebook.ipynb` analyzes the scraped data using:
 - **Scenario:** A market analyst wants to compare customer sentiments across different hotel categories.
 - **Steps:**
   1. Aggregate review data from multiple hotels using the web scraping notebook.
-  2. Perform sentiment analysis and clustering to identify trends within categories (e.g., luxury vs. budget hotels).
+  2. Perform sentiment analysis and clustering to identify trends within categories.
   3. Generate a report highlighting strengths and weaknesses across categories.
 - **Outcome:** Actionable insights for marketing strategies and competitive positioning.
 
